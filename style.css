@@ -5,6 +5,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 150px;
 }
 nav >ul{
     display: flex;
@@ -34,4 +35,64 @@ color: var(--white-color, #FFF);
 font-size: 20px;
 font-weight: 600;
 padding: 13px 30px;
+border: 0px;
+}
+.btn-Dark{
+    border-radius: 5px; 
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 25px;
+    color:#FD6E0A;
+    background: #FFF8F3;
+    border: 2px solid black;
+}
+.header{
+    background-color:#FFF8F3;
+    background-image:url('header_bg.png');
+    background-size: 750px;
+    background-repeat: no-repeat;
+    background-position: bottom right;}
+    
+.text{
+    padding: 30px 30px 120px 150px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    height: 750px;
+    width: 730px;
+    margin-left: 400px;
+}
+.banner-top{
+    color: #474747;
+    font-size: 35px;
+    margin-bottom: 0px;
+
+}
+.banner-mid{
+    color: #181818;
+    font-size: 70px;
+font-weight: 500;
+margin-top: 0px;
+}
+.about_title{
+    color: v#181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+.about_para{
+    color:#757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.about{
+    margin: 150px 250px 50px 260px;
+    border-radius: 10px;
+background: #FFF8F3;
+padding: 100px ;
 }
