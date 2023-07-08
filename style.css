@@ -1,0 +1,37 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 57px;
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
+    
+}
+.nav-text{
+    color: #181818;
+font-size: 35px;
+font-weight: 800;
+
+}
+.orrange{
+    color: #FD6E0A;
+}
+.btn-orrange{
+border-radius: 5px;
+background: #FD6E0A;
+color: var(--white-color, #FFF);
+font-size: 20px;
+font-weight: 600;
+padding: 13px 30px;
+}
